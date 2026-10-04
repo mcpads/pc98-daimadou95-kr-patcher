@@ -1,0 +1,143 @@
+{
+  "id": "daimadou-senryaku-monogatari-95-ko-custom-arle",
+  "title": "대마도전략 이야기 '95 한글패치 v0.1.0 (커스텀 아르르)",
+  "output_filename": "Daimadou Senryaku Monogatari '95 (PC-98) KR v0.1.0 Custom Arle.hdm",
+  "source": {
+    "size": 1261568,
+    "sha256": "b2ade325198210914e1cd1a6add3724fb4de1a1c5e5f8f617acfe7999234c122",
+    "geometry": {
+      "bytes_per_sector": 1024,
+      "sectors_per_cluster": 1,
+      "reserved_sectors": 1,
+      "fat_count": 2,
+      "root_entries": 192,
+      "total_sectors": 1232,
+      "media_descriptor": 254,
+      "sectors_per_fat": 2,
+      "sectors_per_track": 8,
+      "heads": 2
+    },
+    "mount_policy": "pc98_dos3"
+  },
+  "assembly": {
+    "retained_files": [
+      {
+        "name": "IO98.SYS",
+        "size": 9523,
+        "sha256": "16cfcead72b8de479a6f6e4082d75fb6ce185d9e63e1cfb30e9390c90cff45e1"
+      },
+      {
+        "name": "MEGDOS.SYS",
+        "size": 17547,
+        "sha256": "ef414945c33d6a0fe199a7e75ea88c963dfc5957031fd7ac25495c45bc088ac2"
+      }
+    ],
+    "placed_files": [
+      {
+        "name": "FPLAY.COM",
+        "source": { "kind": "root_file", "name": "FPLAY.COM" },
+        "source_size": 16138,
+        "source_sha256": "8004b53936793170af03b628837f972d949fd43da6e2bfa0626a7b403382de08",
+        "transform": { "kind": "copy" }
+      },
+      {
+        "name": "BPLAY.COM",
+        "source": { "kind": "root_file", "name": "BPLAY.COM" },
+        "source_size": 16138,
+        "source_sha256": "e8487b9de083276bdc67b51a184caf0ae6e6a9afff16c546484093d1dc10d9fc",
+        "transform": { "kind": "copy" }
+      },
+      {
+        "name": "BSAMP.COM",
+        "source": { "kind": "root_file", "name": "BSAMP.COM" },
+        "source_size": 5623,
+        "source_sha256": "57cc9622a570ac7f45aad14edfab84223c50cd0be2c988e67a1237fc08fcd749",
+        "transform": { "kind": "copy" }
+      },
+      {
+        "name": "NMOUSE.COM",
+        "source": { "kind": "root_file", "name": "NMOUSE.COM" },
+        "source_size": 4927,
+        "source_sha256": "921ccf4389ea98e36a3cdf8a5fec46d44beecb6e0d64c68fdc2f2f26bb089d61",
+        "transform": { "kind": "copy" }
+      },
+      {
+        "name": "CONFIG.SYS",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "CONFIG.SYS" },
+        "source_size": 37,
+        "source_sha256": "6f27b06a8164802bda6c4b5dc4c04012aba01ad38570f05c8d03d628edb6c283",
+        "transform": { "kind": "copy" }
+      },
+      {
+        "name": "DATAFILE",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "DATAFILE" },
+        "source_size": 3072,
+        "source_sha256": "d0bf93be8d10d5f0a22d9817a48474b830a086575641bb9df69e5c8c4ea6f85f",
+        "transform": { "kind": "copy" }
+      },
+      {
+        "name": "MADDAT",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "MADDAT" },
+        "source_size": 919585,
+        "source_sha256": "e69cbb6342226799abea8f320cad3c8114d0ce15a131698821ce822aaa18c99a",
+        "transform": { "kind": "bps" }
+      },
+      {
+        "name": "MADO95.BAT",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "MADO95.BAT" },
+        "source_size": 9,
+        "source_sha256": "556a9d1ab9a82e5b617a3a71f6969b932bec68ab1854951625c280c19b34fb0d",
+        "transform": { "kind": "copy" }
+      },
+      {
+        "name": "ENDING.COM",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "ENDING.COM" },
+        "source_size": 18973,
+        "source_sha256": "363a3cd17d20577ddbb9d306d1baa5f34e607d8c3849818e4e92b6dcc42011b5",
+        "transform": { "kind": "bps" }
+      },
+      {
+        "name": "GAIJI.COM",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "GAIJI.COM" },
+        "source_size": 6419,
+        "source_sha256": "f451467620f3368ccf627f754bcaf0277baea0ee9f20a937a37e8cefe7a9335e",
+        "transform": { "kind": "copy" }
+      },
+      {
+        "name": "MAD.COM",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "MAD.COM" },
+        "source_size": 63906,
+        "source_sha256": "7cf0f789f4cc9e8c98192036f314ab7f318ec438092a88ba622278941bda946f",
+        "transform": { "kind": "bps" }
+      },
+      {
+        "name": "MST.COM",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "MST.COM" },
+        "source_size": 2153,
+        "source_sha256": "dac059ccaab73b27564210aeadc274f802715ec40662b4f420c86a3d528cb3ba",
+        "transform": { "kind": "copy" }
+      },
+      {
+        "name": "OPENING.COM",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "OPENING.COM" },
+        "source_size": 14710,
+        "source_sha256": "b07b21a874ae2259c029e74408c54696f096af4d7059d2abf4ac6a6c205f69e3",
+        "transform": { "kind": "bps" }
+      },
+      {
+        "name": "SELECT.COM",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "SELECT.COM" },
+        "source_size": 20204,
+        "source_sha256": "281da5bf2579fb871f4768e824ddeefede8c927d79c12f38c61eb41a897216f5",
+        "transform": { "kind": "bps" }
+      },
+      {
+        "name": "SONG.DAT",
+        "source": { "kind": "mz_lha_member", "container": "MADO95.EXE", "member": "SONG.DAT" },
+        "source_size": 18947,
+        "source_sha256": "af557d0e4212833135b69f97807a54d9dbc74248a93b068f00fe73b6797bce88",
+        "transform": { "kind": "copy" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "ds8_daimadou.font_profile",
+  "id": "neodunggeunmo-pc98-16x16",
+  "font": "NeoDunggeunmo.ttf",
+  "font_sha256": "d61b60eccb731f8ca9c7da582e4a05a94db66b570471809950aa9a7261b941d6",
+  "font_version": "1.600",
+  "cell_width": 16,
+  "cell_height": 16,
+  "font_size": 16,
+  "baseline_y": 14,
+  "vertical_fit": "baseline_then_clamp",
+  "threshold": 128,
+  "horizontal_thickening": 0,
+  "rasterizer": "fontdue 0.9.3",
+  "license": "NeoDunggeunmo-OFL.txt",
+  "source": "https://github.com/neodgm/neodgm",
+  "upstream_revision": "9aa2daa8fb965528987da05c01bf627cf5c27cdb"
+}
