@@ -45,7 +45,7 @@ Disc Station Vol. 08 Disk 1의 헤더 없는 HDM을 지원합니다. 빌더는 �
 | 타이틀 그래픽 | `assets/title/daimadou-title-logo.imagegen.png`, `assets/title/daimadou-title-ribbon.imagegen.png` | |
 | 아르르 그래픽 | `assets/characters/arle/` | 커스텀 아르르판에만 필요 |
 
-폰트 프로필(`assets/fonts/*.json`)은 저장소에 있습니다. 폰트와 라이선스 문서는 재배포 조건을 이 저장소에서 보장할 수 없어 포함하지 않으며, 폰트의 라이선스는 배포처에서 확인하세요. 라이선스 문서에는 `SIL OPEN FONT LICENSE` 문구가 있어야 합니다.
+폰트 프로필(`assets/fonts/*.json`)은 저장소에 있습니다. 라이선스 문서에는 `SIL OPEN FONT LICENSE` 문구가 있어야 합니다.
 
 폰트와 그래픽은 아래 SHA-256과 같아야 합니다. 다르면 해당 단계에서 빌드를 멈춥니다.
 
